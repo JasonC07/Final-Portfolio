@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*
+   Filename: fp_layout.css
+   
+*/
+
+/* =============================================
+	Base layout styles used by mobile devices
+	up to 480px and cascaded to larger devices 
+	unless superceded by other styles.
+   =============================================
+*/
+
+html {
+	background-image: radial-gradient(posoition(top left), rgba(25,35,150,0.7), rgba(180,65,20,0.7));
+}
+
+header {
+	border-bottom: 3px solid rgb(51, 51, 51);
+}
+
+body {
+	margin: 0px auto auto auto;
+	width: 100%;
+	min-width: 320px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 32px;
+}
+
+nav ul li a {
+	color: #222;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 8%;
+}
+nav ul li a:visited {
+	color: #222;
+}
+nav ul li a:hover {
+	background-color: #222;
+	color: white;
+}
+
+nav ul li a:focus {
+	outline: thin dotted;
+}
+
+nav ul li a:hover, nav ul li a:active {
+	outline: 0;
+}
+
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: 2px solid rgba(51,51,51, 5.00);
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}

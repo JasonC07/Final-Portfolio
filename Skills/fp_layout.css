@@ -10,9 +10,11 @@
 	unless superceded by other styles.
    =============================================
 */
-title {
-	text-align: center;
-	text-indent: 50px;
+
+#backgrad {
+	height: 100%;
+	width: 100%;
+	background-image: radial-gradient(circle at center, rgba(25,35,150,0.7), rgba(180,65,20,0.7));
 }
 
 header {
@@ -73,13 +75,4 @@ nav ul {
 }
 nav ul li:last-of-type {
 	margin-right: 0%;
-}
-
-/* footer styles */
-
-footer {
-   margin-top: 15px;
-   background-color: rgb(71, 71, 71);
-   color: rgb(231, 231, 231);
-   text-align: center;
 }

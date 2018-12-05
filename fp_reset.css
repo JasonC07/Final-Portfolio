@@ -8,3 +8,14 @@
 
 /* Basic styles to be used with all devices and under all conditions */
 
+
+#backgrad {
+	height: 100%;
+	width: 100%;
+	background-image: radial-gradient(circle at center, rgba(25,35,150,0.7), rgba(180,65,20,0.7));
+}
+
+title {
+	text-align: center;
+	text-indent: 50px;
+}

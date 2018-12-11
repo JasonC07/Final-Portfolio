@@ -12,7 +12,6 @@
 */
 
 #backgrad {
-	height: 100%;
 	width: 100%;
 	background-image: radial-gradient(circle at center, rgba(25,35,150,0.7), rgba(180,65,20,0.7));
 }
@@ -71,4 +70,12 @@ nav ul {
 }
 nav ul li:last-of-type {
 	margin-right: 0%;
+}
+
+/* Footer Styles */
+
+footer {
+   margin-top: 15px;
+   color: rgb(231, 231, 231);
+   text-align: center;
 }

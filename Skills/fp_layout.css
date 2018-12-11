@@ -75,3 +75,11 @@ nav ul {
 nav ul li:last-of-type {
 	margin-right: 0%;
 }
+
+/* Footer Styles */
+
+footer {
+   margin-top: 15px;
+   color: rgb(231, 231, 231);
+   text-align: center;
+}

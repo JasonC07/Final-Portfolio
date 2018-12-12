@@ -28,8 +28,8 @@ body {
    border-right: 1px solid rgb(3, 51, 86);
    min-height: 100%;   
    margin: 0px auto;
-   min-width: 320px;
-   max-width: 1024px;   
+   min-width: 1040px;
+   max-width: 1020px;   
    width: 100%;
 }
 

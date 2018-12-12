@@ -17,6 +17,12 @@
 	background-image: radial-gradient(circle at center, rgba(25,35,150,0.7), rgba(180,65,20,0.7));
 }
 
+#center {
+	padding: 15px;
+	margin-left: 50px;
+	margin-right: auto;
+}
+
 header {
 	border-bottom: 3px solid rgb(51, 51, 51);
 }
